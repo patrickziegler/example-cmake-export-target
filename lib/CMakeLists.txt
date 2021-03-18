@@ -60,8 +60,7 @@ write_basic_package_version_file(
 install(
     FILES "${CMAKE_BINARY_DIR}/${TARGET_NAME}Config.cmake"
           "${CMAKE_BINARY_DIR}/${TARGET_NAME}ConfigVersion.cmake"
-    DESTINATION "${CMAKE_FILES_INSTALL_DIR}"
-)
+    DESTINATION "${CMAKE_FILES_INSTALL_DIR}")
 
 # exporting targets for `include` from build tree
 export(
