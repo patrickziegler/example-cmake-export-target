@@ -23,3 +23,8 @@ mkdir ../build_cli && cd ../build_cli
 cmake ../cli/ && make -j10
 ./add
 ```
+
+## References:
+
+* https://cmake.org/cmake/help/git-stage/guide/importing-exporting/index.html
+* https://gitlab.kitware.com/cmake/community/-/wikis/doc/tutorials/Exporting-and-Importing-Targets

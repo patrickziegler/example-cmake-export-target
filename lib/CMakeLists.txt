@@ -1,7 +1,3 @@
-# References:
-# [1] https://cmake.org/cmake/help/git-stage/guide/importing-exporting/index.html
-# [2] https://gitlab.kitware.com/cmake/community/-/wikis/doc/tutorials/Exporting-and-Importing-Targets
-
 cmake_minimum_required(VERSION 3.12)
 
 include(GNUInstallDirs)
